@@ -159,5 +159,9 @@ void CMySQL_DBMegerDlg::OnMenu_ConnectDlg()
 {
 	// TODO: 在此添加命令处理程序代码
 	CConnectInfoDlg m_ConInfoDlg;
-	m_ConInfoDlg.DoModal();
+
+	if (m_ConInfoDlg.DoModal() == IDOK)
+	{
+		
+	}
 }
